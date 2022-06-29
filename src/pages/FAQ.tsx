@@ -43,7 +43,7 @@ const FAQ = () => {
         initialState[i] = false;
       }
       setOpenDropdown(initialState)
-    }, [])
+    }, [faqs.length])
     
 
   return (
