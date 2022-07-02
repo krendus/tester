@@ -76,7 +76,7 @@ const FAQ = () => {
                                 <span className={`block absolute h-[2px] w-4 bg-black transition-all ease-linear duration-300 ${!openDropdown[i]  ? "rotate-90" : "rotate-0"}`}></span>
                             </div>
                         </div>
-                        <div style={{ maxHeight: `${!openDropdown[i]  ? "0" : "500px"}`, height: "0 !important",  transition: `${openDropdown[i]  ? "max-height linear 3s" : "max-height linear 1.6s"} `}}> 
+                        <div style={{ maxHeight: `${!openDropdown[i]  ? "0" : "500px"}`, height: "0 !important",  transition: `${openDropdown[i]  ? "max-height linear 1.5s" : "max-height linear 1s"} `}}> 
                             <p className="pb-2 text-lg text-[#444]">{data.answer}</p>
                         </div>
                     </div>
