@@ -8,7 +8,7 @@ import elephantTwo from '../assets/elephant-2.svg'
 import elephantThree from '../assets/elephant-3.svg'
 import elephantFour from '../assets/elephant-4.svg'
 import rImage from '../assets/ICIFA.svg'
-import rImage2 from '../assets/CapitalMarketAuthority.svg'
+// import rImage2 from '../assets/CapitalMarketAuthority.svg'
 import rImage3 from '../assets/CommunicationAuthorityOfKenya.svg'
 import rImage4 from '../assets/NairobiSecurityExchange.svg'
 const Dashboard = () => {
@@ -81,7 +81,7 @@ const Dashboard = () => {
             <h2 className='text-2xl text-[#3f4254] text-center'>Regulated by</h2>
             <div className='flex justify-between py-3 flex-wrap'>
               <img src={rImage} alt="" className='h-[25px] sm:h-[40px] md:h-[75px]'/>
-              <img src={rImage2} alt="" className='h-[25px] sm:h-[40px] md:h-[75px]'/>
+              <img src="" alt="regulator" className='h-[25px] sm:h-[40px] md:h-[75px]'/>
               <img src={rImage3} alt="" className='h-[25px] sm:h-[40px] md:h-[75px]'/>
               <img src={rImage4} alt="" className='h-[25px] sm:h-[40px] md:h-[75px]'/>
             </div>
