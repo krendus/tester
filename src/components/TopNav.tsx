@@ -23,27 +23,27 @@ const TopNav = () => {
                 </div>
             </div>
             <div className='pt-8'>
-                <a href="" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
+                <a href="/" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
                     <SettingsIcon/>
                     <span className='pl-2 text-[#434658] group-hover:text-white'>Settings</span>
                 </a>
-                <a href="" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
+                <a href="/" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
                     <SecurityIcon/>
                     <span className='pl-2 text-[#434658] group-hover:text-white'>Security</span>
                 </a>
-                <a href="" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
+                <a href="/" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
                     <DocIcon/>
                     <span className='pl-2 text-[#434658] group-hover:text-white'>Investor Information</span>
                 </a>
-                <a href="" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
+                <a href="/" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
                     <ReferIcon/>
                     <span className='pl-2 text-[#434658] group-hover:text-white'>Referal Promo</span>
                 </a>
-                <a href="" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
+                <a href="/" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
                     <SubscribeIcon/>
                     <span className='pl-2 text-[#434658] group-hover:text-white'>Subscription</span>
                 </a>
-                <a href="" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
+                <a href="/" className="group flex px-7 items-center text-[#ff7f30] py-3 hover:bg-[#0071ce] hover:text-white">
                     <TransactionIcon/>
                     <span className='pl-2 text-[#434658] group-hover:text-white'>Transactions</span>
                 </a>
