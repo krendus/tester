@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import userIcon from '../assets/user.svg'
-import settingIcon from '../assets/setting.svg'
 import { DocIcon, ReferIcon, SecurityIcon, SettingsIcon, SubscribeIcon, TransactionIcon } from '../assets/icons'
 const TopNav = () => {
   const [show, setShow] = useState(false)

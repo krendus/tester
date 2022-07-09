@@ -1,6 +1,6 @@
 import React from 'react';
 import Dashboard from './pages/Dashboard';
-import FAQ from './pages/FAQ';
+// import FAQ from './pages/FAQ';
 
 function App() {
   return (
