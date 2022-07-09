@@ -7,10 +7,10 @@ import elephantOne from '../assets/elephant-1.svg'
 import elephantTwo from '../assets/elephant-2.svg'
 import elephantThree from '../assets/elephant-3.svg'
 import elephantFour from '../assets/elephant-4.svg'
-import rImage from '../assets/ICIFA.svg'
+// import rImage from '../assets/ICIFA.svg'
 // import rImage2 from '../assets/CapitalMarketAuthority.svg'
-import rImage3 from '../assets/CommunicationAuthorityOfKenya.svg'
-import rImage4 from '../assets/NairobiSecurityExchange.svg'
+// import rImage3 from '../assets/CommunicationAuthorityOfKenya.svg'
+// import rImage4 from '../assets/NairobiSecurityExchange.svg'
 const Dashboard = () => {
   return (
     <div className='bg-[#f2f8fd] min-h-screen max-h-screen pt-24 overflow-y-scroll'>
@@ -80,10 +80,10 @@ const Dashboard = () => {
           <div className='p-5 border rounded-md mb-10'>
             <h2 className='text-2xl text-[#3f4254] text-center'>Regulated by</h2>
             <div className='flex justify-between py-3 flex-wrap'>
-              <img src={rImage} alt="" className='h-[25px] sm:h-[40px] md:h-[75px]'/>
+              {/* <img src={rImage} alt="" className='h-[25px] sm:h-[40px] md:h-[75px]'/>
               <img src="" alt="regulator" className='h-[25px] sm:h-[40px] md:h-[75px]'/>
               <img src={rImage3} alt="" className='h-[25px] sm:h-[40px] md:h-[75px]'/>
-              <img src={rImage4} alt="" className='h-[25px] sm:h-[40px] md:h-[75px]'/>
+              <img src={rImage4} alt="" className='h-[25px] sm:h-[40px] md:h-[75px]'/> */}
             </div>
           </div>
           <div className='pb-2'>
