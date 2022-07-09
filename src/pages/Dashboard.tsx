@@ -87,7 +87,7 @@ const Dashboard = () => {
             </div>
           </div>
           <div className='pb-2'>
-            <p className='text-[#0071ce]'>
+            <p className='text-[#0071ce] text-sm sm:text-base'>
               <span className='pr-1'>&copy; 2022 ZenStreet</span>
               |
               <a href="/" className='p-1'>Privacy</a>
