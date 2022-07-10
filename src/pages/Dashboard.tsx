@@ -13,7 +13,7 @@ import elephantFour from '../assets/elephant-4.svg'
 // import rImage4 from '../assets/NairobiSecurityExchange.svg'
 const Dashboard = () => {
   return (
-    <div className='bg-[#f2f8fd] min-h-screen max-h-screen pt-24 overflow-y-scroll'>
+    <div className='bg-[#f2f8fd] min-h-screen max-h-screen pt-24 overflow-y-scroll relative overflow-x-hidden'>
         <TopNav/>
         <div className='px-7'>
           <div className='px-2 py-4 my-2 rounded-md bg-white flex justify-between items-center'>
@@ -75,7 +75,7 @@ const Dashboard = () => {
             </a>
           </div>
           <div className='pt-11 pb-8 border-t-blue-500 border-t mt-12'>
-            <p className='text-[#3f4254]'>ZenStreet is an online platform owned and run by Waanzilishi Capital Limited ("Waanzilishi"). Waanzilishi is licensed by the Capital Markets Authority of Kenya, Institute of Certified Investment and Financial Analysts as an Investment Adviser, and by the Communications Authority as a Business Process Outsourcing firm.</p>
+            <p className='text-[#3f4254] text-sm sm:text-base'>ZenStreet is an online platform owned and run by Waanzilishi Capital Limited ("Waanzilishi"). Waanzilishi is licensed by the Capital Markets Authority of Kenya, Institute of Certified Investment and Financial Analysts as an Investment Adviser, and by the Communications Authority as a Business Process Outsourcing firm.</p>
           </div>
           <div className='p-5 border rounded-md mb-10'>
             <h2 className='text-2xl text-[#3f4254] text-center'>Regulated by</h2>
