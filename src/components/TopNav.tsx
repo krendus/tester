@@ -4,7 +4,7 @@ import { DocIcon, ReferIcon, SecurityIcon, SettingsIcon, SubscribeIcon, Transact
 const TopNav = () => {
   const [show, setShow] = useState(false)
   return (
-    <div className='h-[70px] w-full bg-[#f2f8fd] absolute top-0 flex justify-end items-center px-8 pt-[70px]'>
+    <div className='h-[70px] w-full bg-[#f2f8fd] fixed top-0 flex justify-end items-center px-8 pt-[70px]'>
         <div className='flex items-center cursor-pointer h-16 absolute top-0' onClick={() => setShow(true)}>
             <span className='text-[#0071ce] pr-1 font-medium'>Username</span>
             <img src={userIcon} alt="user" />
